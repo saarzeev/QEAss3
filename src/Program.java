@@ -111,7 +111,7 @@ public class Program {
 	public static int[] merge(int[] ar1, int[] ar2) {
 		if (ar1==null && ar2==null) return null;
 		if (ar1==null) return sortArray(ar2);
-		if (ar2==null) return sortArray(ar1);
+			if (ar2==null) return sortArray(ar1);
 		int[] res = new int[ar1.length+ar2.length];
 		int i = 0;
 		for(int j=0; j<ar1.length; j++)
