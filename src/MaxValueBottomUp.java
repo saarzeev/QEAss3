@@ -7,17 +7,20 @@ public class MaxValueBottomUp {
 
     @Test
     public void sendingNullArrayShouldNotThrouwAnException() {
-        int actual = Program.maxValue(null);
+        Program program = new Program();
+        int actual = program.maxValue(null);
     }
 
     @Test
     public void sendingArrayOfSize0ShouldNotThrownException() {
-        int actual = Program.maxValue(new int[]{});
+        Program program = new Program();
+        int actual = program.maxValue(new int[]{});
     }
 
     @Test
     public void shouldReturnHighestValue() {
-        int actual = Program.maxValue(new int[]{3, -2});
+        Program program = new Program();
+        int actual = program.maxValue(new int[]{3, -2});
         int expected = 3;
         Assert.assertEquals(expected, actual);
     }

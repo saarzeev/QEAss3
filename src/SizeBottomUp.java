@@ -7,16 +7,19 @@ public class SizeBottomUp {
 
     @Test
     public void sendingNullShouldntThrowException() {
-        Program.size(null);
+        Program program = new Program();
+        program.size(null);
     }
 
     @Test
     public void sendingArraySize1shouldreturn1() {
-        Assert.assertEquals(1, Program.size(new int[]{1}));
+        Program program = new Program();
+        Assert.assertEquals(1, program.size(new int[]{1}));
     }
 
     @Test
     public void sendingArraySize0shouldreturn0() {
-        Assert.assertEquals(0, Program.size(new int[]{}));
+        Program program = new Program();
+        Assert.assertEquals(0, program.size(new int[]{}));
     }
 }

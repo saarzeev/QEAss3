@@ -7,21 +7,24 @@ public class MaxValueIndexBottomUp {
 
     @Test
     public void SendingNullArrayShouldReturnMinus1() {
-        int actual = Program.maxValueIndex(null);
+        Program program = new Program();
+        int actual = program.maxValueIndex(null);
         int expected = -1;
         Assert.assertEquals(expected, actual);
     }
 
     @Test
     public void SendingArrayOfSize0ShouldReturnMinus1() {
-        int actual = Program.maxValueIndex(new int[]{});
+        Program program = new Program();
+        int actual = program.maxValueIndex(new int[]{});
         int expected = -1;
         Assert.assertEquals(expected, actual);
     }
 
     @Test
     public void FindIndexOfHighestValue() {
-        int actual = Program.maxValueIndex(new int[]{3, -2});
+        Program program = new Program();
+        int actual = program.maxValueIndex(new int[]{3, -2});
         int expected = 0;
         Assert.assertEquals(expected, actual);
     }

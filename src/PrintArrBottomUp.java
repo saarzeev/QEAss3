@@ -28,18 +28,21 @@ public class PrintArrBottomUp {
 
     @Test
     public void sendingNullArrayShouldntThrowException() {
-        Program.printArr(null);
+        Program program = new Program();
+        program.printArr(null);
     }
 
     @Test
     public void printingArrayShouldPrintActualMemebrs(){
-        Program.printArr(new int[]{1,2});
+        Program program = new Program();
+        program.printArr(new int[]{1,2});
         Assert.assertEquals("1 2 \n", outContent.toString());
     }
 
     @Test
     public void printingAnEmptyArrayShouldPrintNewLine(){
-        Program.printArr(new int[]{});
+        Program program = new Program();
+        program.printArr(new int[]{});
         Assert.assertEquals("\n", outContent.toString());
     }
 }

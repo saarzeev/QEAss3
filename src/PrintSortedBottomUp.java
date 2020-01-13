@@ -29,52 +29,40 @@ public class PrintSortedBottomUp {
 
     @Test
     public void sendingNullArrayShouldPrintNoArray() {
+        Program program = new Program();
         int[] expected = null;
-        Program.printSorted(expected);
+        program.printSorted(expected);
 
         assertEquals("No array", outContent.toString());
     }
 
-    ///* Prints arrays in the following order:
-//	 * arr
-//	 * sorted arr
-//	 * arr
-//	 *
-//	 * if arr is null prints:
-//	 * No array
-//	 */
-//	public static void printSorted(int[] arr) {
-//		if (arr==null)
-//			System.out.println("No array");
-//		printArr(arr);
-//		arr = sortArray(arr);
-//		printArr(sortArray(arr));
-//		printArr(arr);
-//	}
     @Test
     public void sendingArrayOfSize0ShouldPrint3NewLines() {
+        Program program = new Program();
         int[] expected = new int[]{};
-        Program.printSorted(expected);
+        program.printSorted(expected);
 
         assertEquals("\n\n\n", outContent.toString());
     }
 
     @Test
     public void sendingArrayWithValuesShouldPrintArrSortedArrArr() {
+        Program program = new Program();
         int highest = 3, medium = 0,  lowest = -2;
 
         int[] original = new int[]{highest, medium, lowest};
-        Program.printSorted(original);
+        program.printSorted(original);
 
         assertEquals("3 0 -2 \n-2 0 3 \n3 0 -2", outContent.toString());
     }
 
     @Test
     public void sendingArrayShouldNotAffectOriginalArray() {
+        Program program = new Program();
         int highest = 3, medium = 0,  lowest = -2;
 
         int[] sent = new int[]{highest, medium, lowest};
-        Program.printSorted(sent);
+        program.printSorted(sent);
         int[] original = new int[]{highest, medium, lowest};
         assertArrayEquals(original, sent);
     }
