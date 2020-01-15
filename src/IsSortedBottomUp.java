@@ -40,7 +40,7 @@ public class IsSortedBottomUp {
         Program program = new Program();
         int highest = 3, medium = 0,  lowest = -2;
 
-        int[] arr1 = new int[]{highest, medium, lowest};
+        int[] arr1 = new int[]{lowest, medium, highest};
         Arrays.sort(arr1);
         boolean actual = program.isSorted(arr1);
 

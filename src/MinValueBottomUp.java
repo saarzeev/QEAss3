@@ -1,29 +1,25 @@
 import org.junit.Assert;
 import org.junit.Test;
 
-import static org.junit.Assert.*;
-
-public class SumMinMaxBottomUp {
+public class MinValueBottomUp {
 
     @Test
     public void sendingNullArrayShouldNotThrouwAnException() {
         Program program = new Program();
-        int actual = program.sumMinMax(null);
+        int actual = program.minValue(null);
     }
 
     @Test
     public void sendingArrayOfSize0ShouldNotThrownException() {
         Program program = new Program();
-        int actual = program.sumMinMax(new int[]{});
+        int actual = program.minValue(new int[]{});
     }
 
     @Test
-    public void ShouldSumHighestAndLowestValues() {
+    public void shouldReturnHighestValue() {
         Program program = new Program();
-        int highest = 3;
-        int lowest = -2;
-        int actual = program.sumMinMax(new int[]{highest, lowest});
-        int expected = highest + lowest;
+        int actual = program.minValue(new int[]{3, -2});
+        int expected = -2;
         Assert.assertEquals(expected, actual);
     }
 }
