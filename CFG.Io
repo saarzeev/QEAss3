@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-01-16T09:16:50.459Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.117 Safari/537.36" etag="iqVwQp1v-UzU0_u4M0tH" version="12.5.4" type="github" pages="4">
+<mxfile host="www.draw.io" modified="2020-01-16T09:17:53.935Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.117 Safari/537.36" etag="Tpe67DTgSoRIuinhCxGY" version="12.5.4" type="github" pages="4">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="findMostCommonPositiveNumber">
     <mxGraphModel dx="2701" dy="1997" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1862,7 +1862,7 @@
         <mxCell id="fPBrel0O2UR-gmmrgbWc-274" value="" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="fPBrel0O2UR-gmmrgbWc-273">
           <mxGeometry width="870" height="99.57" as="geometry"/>
         </mxCell>
-        <mxCell id="fPBrel0O2UR-gmmrgbWc-275" value="$$Min(\alpha_{age}*\frac{\alpha_{distance}}{100},1000)&lt;br&gt;&amp;nbsp;&amp;gt;1 \wedge 1 &amp;lt; \alpha_{age} &amp;lt;= 120&amp;nbsp;\wedge 0 &amp;lt;=\alpha_{distance} &amp;lt;= 500$$" style="text;html=1;fontSize=15;" vertex="1" parent="fPBrel0O2UR-gmmrgbWc-273">
+        <mxCell id="fPBrel0O2UR-gmmrgbWc-275" value="$$Min(\alpha_{age}*\frac{\alpha_{distance}}{100},1000)&lt;br&gt;&amp;nbsp;&amp;gt;1 \wedge 1 &amp;lt; \alpha_{age} &amp;lt;= 120&amp;nbsp;\wedge 0 &amp;lt;=\alpha_{distance} &amp;gt; 500$$" style="text;html=1;fontSize=15;" vertex="1" parent="fPBrel0O2UR-gmmrgbWc-273">
           <mxGeometry x="10.00002274450341" y="11.063829787234038" width="320.0007278241091" height="63.51744680851061" as="geometry"/>
         </mxCell>
         <mxCell id="fPBrel0O2UR-gmmrgbWc-276" value="&lt;font style=&quot;font-size: 14px&quot;&gt;$$ if (\alpha_{distance}=400 \wedge \alpha_{age}=50) $$&amp;nbsp; ERROR&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="fPBrel0O2UR-gmmrgbWc-273">
@@ -1886,13 +1886,13 @@
         <mxCell id="fPBrel0O2UR-gmmrgbWc-282" value="" style="group" vertex="1" connectable="0" parent="fPBrel0O2UR-gmmrgbWc-279">
           <mxGeometry width="757.1426086956519" height="200" as="geometry"/>
         </mxCell>
-        <mxCell id="fPBrel0O2UR-gmmrgbWc-283" value="N" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="fPBrel0O2UR-gmmrgbWc-282">
+        <mxCell id="fPBrel0O2UR-gmmrgbWc-283" value="O" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="fPBrel0O2UR-gmmrgbWc-282">
           <mxGeometry y="11.764705882352942" width="67.9633867276888" height="188.23529411764707" as="geometry"/>
         </mxCell>
         <mxCell id="fPBrel0O2UR-gmmrgbWc-284" value="$$σ = {distance-&amp;gt;\alpha_{distance} age-&amp;gt;\alpha_{age} cost-&amp;gt;Min(\alpha_{age}*\frac{\alpha_{distance}}{100},1000)}$$" style="text;html=1;fontSize=15;" vertex="1" parent="fPBrel0O2UR-gmmrgbWc-282">
           <mxGeometry x="69.17176272741172" y="20" width="575.9944962543954" height="74.12" as="geometry"/>
         </mxCell>
-        <mxCell id="fPBrel0O2UR-gmmrgbWc-285" value="$$π= 1 &amp;lt; \alpha_{age} &amp;lt;= 120$$&lt;br&gt;$$\wedge 0&amp;lt;=\alpha_{distance}&amp;lt;=500$$" style="text;html=1;fontSize=15;" vertex="1" parent="fPBrel0O2UR-gmmrgbWc-279">
+        <mxCell id="fPBrel0O2UR-gmmrgbWc-285" value="$$π= 1 &amp;lt; \alpha_{age} &amp;lt;= 120$$&lt;br&gt;$$\wedge 0&amp;lt;=\alpha_{distance}&amp;gt;500$$" style="text;html=1;fontSize=15;" vertex="1" parent="fPBrel0O2UR-gmmrgbWc-279">
           <mxGeometry x="670.94" y="20" width="160.51" height="97.52" as="geometry"/>
         </mxCell>
         <mxCell id="fPBrel0O2UR-gmmrgbWc-286" value="7. assert cost &amp;lt;= 1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="fPBrel0O2UR-gmmrgbWc-279">
