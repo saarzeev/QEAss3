@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-01-16T07:21:38.021Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.117 Safari/537.36" etag="xo2LRzsR7LxW-eKHiuuo" version="12.5.4" type="github" pages="4">
+<mxfile host="www.draw.io" modified="2020-01-16T07:23:08.362Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.117 Safari/537.36" etag="GjuO1-9TsldwtFfSQd6z" version="12.5.4" type="github" pages="4">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="findMostCommonPositiveNumber">
     <mxGraphModel dx="2701" dy="1997" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1410,14 +1410,11 @@
         <mxCell id="fPBrel0O2UR-gmmrgbWc-78" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="fPBrel0O2UR-gmmrgbWc-1">
           <mxGeometry x="1327.83" y="753" width="522.17" height="40" as="geometry"/>
         </mxCell>
-        <mxCell id="fPBrel0O2UR-gmmrgbWc-79" value="$$π=\alpha_{age} &amp;gt;= 1$$" style="text;html=1;fontSize=15;" vertex="1" parent="fPBrel0O2UR-gmmrgbWc-1">
+        <mxCell id="fPBrel0O2UR-gmmrgbWc-79" value="$$π=\alpha_{age} &amp;gt; 120$$" style="text;html=1;fontSize=15;" vertex="1" parent="fPBrel0O2UR-gmmrgbWc-1">
           <mxGeometry x="1720.0017391304348" y="705" width="83.69565217391305" height="30" as="geometry"/>
         </mxCell>
         <mxCell id="fPBrel0O2UR-gmmrgbWc-80" value="$$σ = {distance-&amp;gt;\alpha_{distance} age-&amp;gt;\alpha_{age} cost-&amp;gt;1000}$$" style="text;html=1;fontSize=14;" vertex="1" parent="fPBrel0O2UR-gmmrgbWc-1">
           <mxGeometry x="1328.6734782608696" y="708" width="405.32608695652175" height="40" as="geometry"/>
-        </mxCell>
-        <mxCell id="fPBrel0O2UR-gmmrgbWc-81" value="3. if(age &amp;gt; 120)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="fPBrel0O2UR-gmmrgbWc-1">
-          <mxGeometry x="1340.0034782608695" y="763" width="204.45652173913044" height="20" as="geometry"/>
         </mxCell>
         <mxCell id="fPBrel0O2UR-gmmrgbWc-90" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="fPBrel0O2UR-gmmrgbWc-1" source="fPBrel0O2UR-gmmrgbWc-82" target="fPBrel0O2UR-gmmrgbWc-80">
           <mxGeometry relative="1" as="geometry">
@@ -1432,6 +1429,9 @@
             <mxPoint x="1260" y="648" as="sourcePoint"/>
             <mxPoint x="1531" y="708" as="targetPoint"/>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="fPBrel0O2UR-gmmrgbWc-92" value="4. &lt;span style=&quot;font-size: 10pt ; line-height: 107% ; font-family: &amp;#34;courier new&amp;#34;&quot;&gt;cost = age*(Math.E^&lt;span dir=&quot;RTL&quot;&gt;&lt;/span&gt;&lt;span dir=&quot;RTL&quot;&gt;&lt;/span&gt;&lt;span lang=&quot;HE&quot; dir=&quot;RTL&quot;&gt;&lt;span dir=&quot;RTL&quot;&gt;&lt;/span&gt;&lt;span dir=&quot;RTL&quot;&gt;&lt;/span&gt;)&lt;/span&gt;&lt;span dir=&quot;LTR&quot;&gt;&lt;/span&gt;&lt;span dir=&quot;LTR&quot;&gt;&lt;/span&gt;&lt;span dir=&quot;LTR&quot;&gt;&lt;/span&gt;&lt;span dir=&quot;LTR&quot;&gt;&lt;/span&gt;(-1)*distance&lt;span dir=&quot;RTL&quot;&gt;&lt;/span&gt;&lt;span dir=&quot;RTL&quot;&gt;&lt;/span&gt;&lt;span lang=&quot;HE&quot; dir=&quot;RTL&quot;&gt;&lt;span dir=&quot;RTL&quot;&gt;&lt;/span&gt;&lt;span dir=&quot;RTL&quot;&gt;&lt;/span&gt;(&lt;/span&gt;&lt;span dir=&quot;LTR&quot;&gt;&lt;/span&gt;&lt;span dir=&quot;LTR&quot;&gt;&lt;/span&gt;&lt;span dir=&quot;LTR&quot;&gt;&lt;/span&gt;&lt;span dir=&quot;LTR&quot;&gt;&lt;/span&gt;)&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="fPBrel0O2UR-gmmrgbWc-1">
+          <mxGeometry x="1330" y="763" width="349.46" height="20" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
