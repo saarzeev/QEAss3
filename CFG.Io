@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-01-16T06:58:28.672Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.117 Safari/537.36" etag="CV8Ku4bT4VQtZnZ-y8u2" version="12.5.4" type="github" pages="4">
+<mxfile host="www.draw.io" modified="2020-01-16T06:58:47.293Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.117 Safari/537.36" etag="IN1BHmNs9DKgcdRFCRXk" version="12.5.4" type="github" pages="4">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="findMostCommonPositiveNumber">
     <mxGraphModel dx="2701" dy="1997" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1274,41 +1274,26 @@
         <mxCell id="fPBrel0O2UR-gmmrgbWc-12" value="" style="group" vertex="1" connectable="0" parent="fPBrel0O2UR-gmmrgbWc-1">
           <mxGeometry x="164" y="320" width="550" height="110" as="geometry"/>
         </mxCell>
-        <mxCell id="fPBrel0O2UR-gmmrgbWc-9" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="fPBrel0O2UR-gmmrgbWc-12">
-          <mxGeometry width="460" height="50" as="geometry"/>
+        <mxCell id="fPBrel0O2UR-gmmrgbWc-23" value="" style="group" vertex="1" connectable="0" parent="fPBrel0O2UR-gmmrgbWc-12">
+          <mxGeometry y="-5" width="460" height="85" as="geometry"/>
         </mxCell>
-        <mxCell id="fPBrel0O2UR-gmmrgbWc-10" value="A" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="fPBrel0O2UR-gmmrgbWc-12">
-          <mxGeometry width="40" height="80" as="geometry"/>
+        <mxCell id="fPBrel0O2UR-gmmrgbWc-9" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="fPBrel0O2UR-gmmrgbWc-23">
+          <mxGeometry y="5" width="460" height="50" as="geometry"/>
         </mxCell>
-        <mxCell id="fPBrel0O2UR-gmmrgbWc-11" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="fPBrel0O2UR-gmmrgbWc-12">
-          <mxGeometry x="40" y="40" width="420" height="40" as="geometry"/>
+        <mxCell id="fPBrel0O2UR-gmmrgbWc-10" value="A" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="fPBrel0O2UR-gmmrgbWc-23">
+          <mxGeometry y="5" width="40" height="80" as="geometry"/>
         </mxCell>
-        <mxCell id="fPBrel0O2UR-gmmrgbWc-15" value="$$π=true$$" style="text;html=1;fontSize=15;" vertex="1" parent="fPBrel0O2UR-gmmrgbWc-12">
-          <mxGeometry x="386" y="-5" width="70" height="30" as="geometry"/>
+        <mxCell id="fPBrel0O2UR-gmmrgbWc-11" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="fPBrel0O2UR-gmmrgbWc-23">
+          <mxGeometry x="40" y="45" width="420" height="40" as="geometry"/>
         </mxCell>
-        <mxCell id="fPBrel0O2UR-gmmrgbWc-14" value="$$σ = {distance-&amp;gt;\alpha_{distance} age-&amp;gt;\alpha_{age}}$$" style="text;html=1;fontSize=16;" vertex="1" parent="fPBrel0O2UR-gmmrgbWc-12">
-          <mxGeometry x="59" y="-5" width="339" height="40" as="geometry"/>
+        <mxCell id="fPBrel0O2UR-gmmrgbWc-15" value="$$π=true$$" style="text;html=1;fontSize=15;" vertex="1" parent="fPBrel0O2UR-gmmrgbWc-23">
+          <mxGeometry x="386" width="70" height="30" as="geometry"/>
         </mxCell>
-        <mxCell id="fPBrel0O2UR-gmmrgbWc-22" value="2. int cost =1000" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="fPBrel0O2UR-gmmrgbWc-12">
-          <mxGeometry x="59" y="50" width="171" height="20" as="geometry"/>
+        <mxCell id="fPBrel0O2UR-gmmrgbWc-14" value="$$σ = {distance-&amp;gt;\alpha_{distance} age-&amp;gt;\alpha_{age}}$$" style="text;html=1;fontSize=16;" vertex="1" parent="fPBrel0O2UR-gmmrgbWc-23">
+          <mxGeometry x="59" width="339" height="40" as="geometry"/>
         </mxCell>
-        <mxCell id="fPBrel0O2UR-gmmrgbWc-16" value="" style="group" vertex="1" connectable="0" parent="fPBrel0O2UR-gmmrgbWc-1">
-          <mxGeometry x="150" y="460" width="320" height="80" as="geometry"/>
-        </mxCell>
-        <mxCell id="fPBrel0O2UR-gmmrgbWc-17" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="fPBrel0O2UR-gmmrgbWc-16">
-          <mxGeometry width="320" height="50" as="geometry"/>
-        </mxCell>
-        <mxCell id="fPBrel0O2UR-gmmrgbWc-18" value="B" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="fPBrel0O2UR-gmmrgbWc-16">
-          <mxGeometry width="40" height="80" as="geometry"/>
-        </mxCell>
-        <mxCell id="fPBrel0O2UR-gmmrgbWc-19" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="fPBrel0O2UR-gmmrgbWc-16">
-          <mxGeometry x="40" y="40" width="280" height="40" as="geometry"/>
-        </mxCell>
-        <mxCell id="fPBrel0O2UR-gmmrgbWc-20" value="σ =&amp;nbsp;" style="text;html=1;" vertex="1" parent="fPBrel0O2UR-gmmrgbWc-16">
-          <mxGeometry x="41" width="40" height="40" as="geometry"/>
-        </mxCell>
-        <mxCell id="fPBrel0O2UR-gmmrgbWc-21" value="π=" style="text;html=1;" vertex="1" parent="fPBrel0O2UR-gmmrgbWc-16">
-          <mxGeometry x="220" width="30" height="30" as="geometry"/>
+        <mxCell id="fPBrel0O2UR-gmmrgbWc-22" value="2. int cost =1000" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="fPBrel0O2UR-gmmrgbWc-23">
+          <mxGeometry x="59" y="55" width="171" height="20" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
