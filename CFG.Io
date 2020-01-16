@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-01-16T07:40:25.471Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.117 Safari/537.36" etag="YumAr21b7Qz0XF0pWjzL" version="12.5.4" type="github" pages="4">
+<mxfile host="www.draw.io" modified="2020-01-16T07:42:04.436Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.117 Safari/537.36" etag="X0n6yPY8xE7ahQtBFVuA" version="12.5.4" type="github" pages="4">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="findMostCommonPositiveNumber">
     <mxGraphModel dx="2701" dy="1997" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1267,7 +1267,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="J5yvUr7EQv72YCLKXYO3" name="symbolic exe">
-    <mxGraphModel dx="2578" dy="916" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="1" shadow="0">
+    <mxGraphModel dx="3298" dy="1298" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="1" shadow="0">
       <root>
         <mxCell id="fPBrel0O2UR-gmmrgbWc-0"/>
         <mxCell id="fPBrel0O2UR-gmmrgbWc-1" parent="fPBrel0O2UR-gmmrgbWc-0"/>
@@ -1495,6 +1495,9 @@
         </mxCell>
         <mxCell id="fPBrel0O2UR-gmmrgbWc-113" value="$$σ = {distance-&amp;gt;\alpha_{distance} &lt;br&gt;age-&amp;gt;\alpha_{age} cost-&amp;gt;1000}$$" style="text;html=1;fontSize=14;" vertex="1" parent="fPBrel0O2UR-gmmrgbWc-119">
           <mxGeometry x="70.0034782608696" width="405.32608695652175" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="fPBrel0O2UR-gmmrgbWc-130" value="5. if(distance &amp;gt; 500)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="fPBrel0O2UR-gmmrgbWc-119">
+          <mxGeometry x="60.00347826086954" y="99" width="204.45652173913044" height="20" as="geometry"/>
         </mxCell>
         <mxCell id="fPBrel0O2UR-gmmrgbWc-120" value="$$\alpha_{distance} &amp;lt; 0$$" style="text;html=1;fontSize=17;" vertex="1" parent="fPBrel0O2UR-gmmrgbWc-1">
           <mxGeometry x="1060" y="810" width="163.91" height="40" as="geometry"/>
