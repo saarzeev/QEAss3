@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-01-16T09:17:53.935Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.117 Safari/537.36" etag="Tpe67DTgSoRIuinhCxGY" version="12.5.4" type="github" pages="4">
+<mxfile host="www.draw.io" modified="2020-01-16T09:19:01.034Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.117 Safari/537.36" etag="m1ma4kHC5PctCtb3MVTq" version="12.5.4" type="github" pages="4">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="findMostCommonPositiveNumber">
     <mxGraphModel dx="2701" dy="1997" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1267,7 +1267,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="J5yvUr7EQv72YCLKXYO3" name="symbolic exe">
-    <mxGraphModel dx="3428" dy="916" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="1" shadow="0">
+    <mxGraphModel dx="6597" dy="2597" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="1" shadow="0">
       <root>
         <mxCell id="fPBrel0O2UR-gmmrgbWc-0"/>
         <mxCell id="fPBrel0O2UR-gmmrgbWc-1" parent="fPBrel0O2UR-gmmrgbWc-0"/>
@@ -1865,7 +1865,7 @@
         <mxCell id="fPBrel0O2UR-gmmrgbWc-275" value="$$Min(\alpha_{age}*\frac{\alpha_{distance}}{100},1000)&lt;br&gt;&amp;nbsp;&amp;gt;1 \wedge 1 &amp;lt; \alpha_{age} &amp;lt;= 120&amp;nbsp;\wedge 0 &amp;lt;=\alpha_{distance} &amp;gt; 500$$" style="text;html=1;fontSize=15;" vertex="1" parent="fPBrel0O2UR-gmmrgbWc-273">
           <mxGeometry x="10.00002274450341" y="11.063829787234038" width="320.0007278241091" height="63.51744680851061" as="geometry"/>
         </mxCell>
-        <mxCell id="fPBrel0O2UR-gmmrgbWc-276" value="&lt;font style=&quot;font-size: 14px&quot;&gt;$$ if (\alpha_{distance}=400 \wedge \alpha_{age}=50) $$&amp;nbsp; ERROR&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="fPBrel0O2UR-gmmrgbWc-273">
+        <mxCell id="fPBrel0O2UR-gmmrgbWc-276" value="&lt;font style=&quot;font-size: 14px&quot;&gt;$$ if (\alpha_{distance}=600 \wedge \alpha_{age}=50) $$&amp;nbsp; ERROR&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="fPBrel0O2UR-gmmrgbWc-273">
           <mxGeometry x="619.1807960576193" y="13.82574468085106" width="230.00052312357843" height="71.91489361702125" as="geometry"/>
         </mxCell>
         <mxCell id="fPBrel0O2UR-gmmrgbWc-277" value="" style="group" vertex="1" connectable="0" parent="fPBrel0O2UR-gmmrgbWc-271">
