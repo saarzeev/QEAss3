@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-01-16T08:57:21.375Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.117 Safari/537.36" etag="jQ0Dq3dDVomL6c4Tid3l" version="12.5.4" type="github" pages="4">
+<mxfile host="www.draw.io" modified="2020-01-16T08:58:28.106Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.117 Safari/537.36" etag="dJ-nRr4Zc9cDDg0EEcuk" version="12.5.4" type="github" pages="4">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="findMostCommonPositiveNumber">
     <mxGraphModel dx="2701" dy="1997" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1557,14 +1557,8 @@
         <mxCell id="fPBrel0O2UR-gmmrgbWc-153" value="$$σ = {distance-&amp;gt;\alpha_{distance} &lt;br&gt;age-&amp;gt;\alpha_{age} cost-&amp;gt;1000}$$" style="text;html=1;fontSize=14;" vertex="1" parent="fPBrel0O2UR-gmmrgbWc-148">
           <mxGeometry x="70.0034782608696" width="405.32608695652175" height="40" as="geometry"/>
         </mxCell>
-        <mxCell id="fPBrel0O2UR-gmmrgbWc-163" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;" edge="1" parent="fPBrel0O2UR-gmmrgbWc-148" source="fPBrel0O2UR-gmmrgbWc-154" target="fPBrel0O2UR-gmmrgbWc-162">
-          <mxGeometry relative="1" as="geometry"/>
-        </mxCell>
         <mxCell id="fPBrel0O2UR-gmmrgbWc-154" value="6.&amp;nbsp;&lt;span style=&quot;font-size: 10pt ; line-height: 107% ; font-family: &amp;#34;courier new&amp;#34;&quot;&gt;cost = Math.min(age * distance / 100, cost)&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="fPBrel0O2UR-gmmrgbWc-148">
           <mxGeometry x="70" y="99" width="420" height="20" as="geometry"/>
-        </mxCell>
-        <mxCell id="fPBrel0O2UR-gmmrgbWc-162" value="6.&amp;nbsp;&lt;span style=&quot;font-size: 10pt ; line-height: 107% ; font-family: &amp;#34;courier new&amp;#34;&quot;&gt;cost = Math.min(age * distance / 100, cost)&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="fPBrel0O2UR-gmmrgbWc-148">
-          <mxGeometry x="70" y="199" width="420" height="20" as="geometry"/>
         </mxCell>
         <mxCell id="fPBrel0O2UR-gmmrgbWc-134" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;entryX=0.938;entryY=0.05;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="fPBrel0O2UR-gmmrgbWc-1" source="fPBrel0O2UR-gmmrgbWc-147" target="fPBrel0O2UR-gmmrgbWc-153">
           <mxGeometry relative="1" as="geometry">
@@ -1739,8 +1733,29 @@
         <mxCell id="fPBrel0O2UR-gmmrgbWc-231" value="" style="group" vertex="1" connectable="0" parent="fPBrel0O2UR-gmmrgbWc-1">
           <mxGeometry x="880" y="1200" width="864.92" height="382" as="geometry"/>
         </mxCell>
-        <mxCell id="fPBrel0O2UR-gmmrgbWc-232" value="" style="group" vertex="1" connectable="0" parent="fPBrel0O2UR-gmmrgbWc-231">
-          <mxGeometry x="80" width="784.92" height="200" as="geometry"/>
+        <mxCell id="fPBrel0O2UR-gmmrgbWc-249" value="" style="group" vertex="1" connectable="0" parent="fPBrel0O2UR-gmmrgbWc-231">
+          <mxGeometry x="40" width="824.92" height="382" as="geometry"/>
+        </mxCell>
+        <mxCell id="fPBrel0O2UR-gmmrgbWc-241" value="" style="group" vertex="1" connectable="0" parent="fPBrel0O2UR-gmmrgbWc-249">
+          <mxGeometry y="282.42553191489367" width="800" height="99.57446808510635" as="geometry"/>
+        </mxCell>
+        <mxCell id="fPBrel0O2UR-gmmrgbWc-242" value="" style="group" vertex="1" connectable="0" parent="fPBrel0O2UR-gmmrgbWc-241">
+          <mxGeometry width="800" height="99.57446808510635" as="geometry"/>
+        </mxCell>
+        <mxCell id="fPBrel0O2UR-gmmrgbWc-243" value="" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="fPBrel0O2UR-gmmrgbWc-242">
+          <mxGeometry width="790" height="99.57" as="geometry"/>
+        </mxCell>
+        <mxCell id="fPBrel0O2UR-gmmrgbWc-244" value="$$\alpha_{age}*\frac{1}{\exp{(\alpha_{distance})}} &amp;gt;1 \wedge 1 &amp;lt; \alpha_{age} &amp;lt;= 120&amp;nbsp;\wedge \alpha_{distance} &amp;lt; 0$$" style="text;html=1;fontSize=15;" vertex="1" parent="fPBrel0O2UR-gmmrgbWc-242">
+          <mxGeometry x="10.00002274450341" y="11.063829787234038" width="320.0007278241091" height="63.51744680851061" as="geometry"/>
+        </mxCell>
+        <mxCell id="fPBrel0O2UR-gmmrgbWc-245" value="&lt;font style=&quot;font-size: 14px&quot;&gt;$$ if (\alpha_{distance}=-2 \wedge \alpha_{age}=90) $$&amp;nbsp; ERROR&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="fPBrel0O2UR-gmmrgbWc-242">
+          <mxGeometry x="530.0007960576193" y="13.82574468085106" width="230.00052312357843" height="71.91489361702125" as="geometry"/>
+        </mxCell>
+        <mxCell id="fPBrel0O2UR-gmmrgbWc-248" value="" style="group" vertex="1" connectable="0" parent="fPBrel0O2UR-gmmrgbWc-249">
+          <mxGeometry x="40" width="784.92" height="200" as="geometry"/>
+        </mxCell>
+        <mxCell id="fPBrel0O2UR-gmmrgbWc-232" value="" style="group" vertex="1" connectable="0" parent="fPBrel0O2UR-gmmrgbWc-248">
+          <mxGeometry width="784.92" height="200" as="geometry"/>
         </mxCell>
         <mxCell id="fPBrel0O2UR-gmmrgbWc-233" value="" style="group" vertex="1" connectable="0" parent="fPBrel0O2UR-gmmrgbWc-232">
           <mxGeometry width="784.92" height="200" as="geometry"/>
@@ -1766,22 +1781,7 @@
         <mxCell id="fPBrel0O2UR-gmmrgbWc-240" value="7. assert cost &amp;lt;= 1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="fPBrel0O2UR-gmmrgbWc-233">
           <mxGeometry x="80" y="160" width="481.22" height="26.31" as="geometry"/>
         </mxCell>
-        <mxCell id="fPBrel0O2UR-gmmrgbWc-241" value="" style="group" vertex="1" connectable="0" parent="fPBrel0O2UR-gmmrgbWc-231">
-          <mxGeometry x="40" y="282.42553191489367" width="800" height="99.57446808510635" as="geometry"/>
-        </mxCell>
-        <mxCell id="fPBrel0O2UR-gmmrgbWc-242" value="" style="group" vertex="1" connectable="0" parent="fPBrel0O2UR-gmmrgbWc-241">
-          <mxGeometry width="800" height="99.57446808510635" as="geometry"/>
-        </mxCell>
-        <mxCell id="fPBrel0O2UR-gmmrgbWc-243" value="" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="fPBrel0O2UR-gmmrgbWc-242">
-          <mxGeometry width="790" height="99.57" as="geometry"/>
-        </mxCell>
-        <mxCell id="fPBrel0O2UR-gmmrgbWc-244" value="$$\alpha_{age}*\frac{1}{\exp{(\alpha_{distance})}} &amp;gt;1 \wedge 1 &amp;lt; \alpha_{age} &amp;lt;= 120&amp;nbsp;\wedge \alpha_{distance} &amp;lt; 0$$" style="text;html=1;fontSize=15;" vertex="1" parent="fPBrel0O2UR-gmmrgbWc-242">
-          <mxGeometry x="10.00002274450341" y="11.063829787234038" width="320.0007278241091" height="63.51744680851061" as="geometry"/>
-        </mxCell>
-        <mxCell id="fPBrel0O2UR-gmmrgbWc-245" value="&lt;font style=&quot;font-size: 14px&quot;&gt;$$ if (\alpha_{distance}=-2 \wedge \alpha_{age}=90) $$&amp;nbsp; ERROR&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="fPBrel0O2UR-gmmrgbWc-242">
-          <mxGeometry x="530.0007960576193" y="13.82574468085106" width="230.00052312357843" height="71.91489361702125" as="geometry"/>
-        </mxCell>
-        <mxCell id="fPBrel0O2UR-gmmrgbWc-246" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.519;entryY=-0.041;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=12;exitX=0.407;exitY=0.988;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="fPBrel0O2UR-gmmrgbWc-231" source="fPBrel0O2UR-gmmrgbWc-235" target="fPBrel0O2UR-gmmrgbWc-243">
+        <mxCell id="fPBrel0O2UR-gmmrgbWc-246" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.519;entryY=-0.041;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=12;exitX=0.407;exitY=0.988;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="fPBrel0O2UR-gmmrgbWc-249" source="fPBrel0O2UR-gmmrgbWc-235" target="fPBrel0O2UR-gmmrgbWc-243">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="520" y="200" as="sourcePoint"/>
           </mxGeometry>
@@ -1790,6 +1790,64 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1160" y="1100" as="sourcePoint"/>
             <mxPoint x="1124.7299999999996" y="1159" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fPBrel0O2UR-gmmrgbWc-250" value="" style="group" vertex="1" connectable="0" parent="fPBrel0O2UR-gmmrgbWc-1">
+          <mxGeometry x="30.82000000000005" y="1400" width="824.92" height="382" as="geometry"/>
+        </mxCell>
+        <mxCell id="fPBrel0O2UR-gmmrgbWc-251" value="" style="group" vertex="1" connectable="0" parent="fPBrel0O2UR-gmmrgbWc-250">
+          <mxGeometry y="282.42553191489367" width="800" height="99.57446808510635" as="geometry"/>
+        </mxCell>
+        <mxCell id="fPBrel0O2UR-gmmrgbWc-252" value="" style="group" vertex="1" connectable="0" parent="fPBrel0O2UR-gmmrgbWc-251">
+          <mxGeometry width="800" height="99.57446808510635" as="geometry"/>
+        </mxCell>
+        <mxCell id="fPBrel0O2UR-gmmrgbWc-253" value="" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="fPBrel0O2UR-gmmrgbWc-252">
+          <mxGeometry width="790" height="99.57" as="geometry"/>
+        </mxCell>
+        <mxCell id="fPBrel0O2UR-gmmrgbWc-254" value="$$\alpha_{age}*\frac{1}{\exp{(\alpha_{distance})}} &amp;gt;1 \wedge 1 &amp;lt; \alpha_{age} &amp;lt;= 120&amp;nbsp;\wedge \alpha_{distance} &amp;lt; 0$$" style="text;html=1;fontSize=15;" vertex="1" parent="fPBrel0O2UR-gmmrgbWc-252">
+          <mxGeometry x="10.00002274450341" y="11.063829787234038" width="320.0007278241091" height="63.51744680851061" as="geometry"/>
+        </mxCell>
+        <mxCell id="fPBrel0O2UR-gmmrgbWc-255" value="&lt;font style=&quot;font-size: 14px&quot;&gt;$$ if (\alpha_{distance}=-2 \wedge \alpha_{age}=90) $$&amp;nbsp; ERROR&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="fPBrel0O2UR-gmmrgbWc-252">
+          <mxGeometry x="530.0007960576193" y="13.82574468085106" width="230.00052312357843" height="71.91489361702125" as="geometry"/>
+        </mxCell>
+        <mxCell id="fPBrel0O2UR-gmmrgbWc-256" value="" style="group" vertex="1" connectable="0" parent="fPBrel0O2UR-gmmrgbWc-250">
+          <mxGeometry x="40" width="784.92" height="200" as="geometry"/>
+        </mxCell>
+        <mxCell id="fPBrel0O2UR-gmmrgbWc-257" value="" style="group" vertex="1" connectable="0" parent="fPBrel0O2UR-gmmrgbWc-256">
+          <mxGeometry width="784.92" height="200" as="geometry"/>
+        </mxCell>
+        <mxCell id="fPBrel0O2UR-gmmrgbWc-258" value="" style="group" vertex="1" connectable="0" parent="fPBrel0O2UR-gmmrgbWc-257">
+          <mxGeometry width="784.92" height="200" as="geometry"/>
+        </mxCell>
+        <mxCell id="fPBrel0O2UR-gmmrgbWc-259" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="fPBrel0O2UR-gmmrgbWc-258">
+          <mxGeometry y="11.76" width="784.92" height="128.24" as="geometry"/>
+        </mxCell>
+        <mxCell id="fPBrel0O2UR-gmmrgbWc-260" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="fPBrel0O2UR-gmmrgbWc-258">
+          <mxGeometry x="65.86" y="140" width="719.06" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="fPBrel0O2UR-gmmrgbWc-261" value="" style="group" vertex="1" connectable="0" parent="fPBrel0O2UR-gmmrgbWc-258">
+          <mxGeometry width="733.6992301449272" height="200" as="geometry"/>
+        </mxCell>
+        <mxCell id="fPBrel0O2UR-gmmrgbWc-262" value="M" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="fPBrel0O2UR-gmmrgbWc-261">
+          <mxGeometry y="11.764705882352942" width="65.85903890160183" height="188.23529411764707" as="geometry"/>
+        </mxCell>
+        <mxCell id="fPBrel0O2UR-gmmrgbWc-263" value="$$σ = {distance-&amp;gt;\alpha_{distance} age-&amp;gt;\alpha_{age} cost-&amp;gt;\alpha_{age}*\frac{1}{\exp{(\alpha_{distance})}}}$$" style="text;html=1;fontSize=15;" vertex="1" parent="fPBrel0O2UR-gmmrgbWc-261">
+          <mxGeometry x="67.03" y="20" width="558.16" height="74.12" as="geometry"/>
+        </mxCell>
+        <mxCell id="fPBrel0O2UR-gmmrgbWc-264" value="$$π= 1 &amp;lt; \alpha_{age} &amp;lt;= 120$$&lt;br&gt;$$\wedge \alpha_{distance}&amp;lt;0$$" style="text;html=1;fontSize=15;" vertex="1" parent="fPBrel0O2UR-gmmrgbWc-258">
+          <mxGeometry x="610.0032679568484" y="22.47540983606563" width="83.69586193745234" height="49.18032786885246" as="geometry"/>
+        </mxCell>
+        <mxCell id="fPBrel0O2UR-gmmrgbWc-265" value="7. assert cost &amp;lt;= 1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="fPBrel0O2UR-gmmrgbWc-258">
+          <mxGeometry x="80" y="160" width="481.22" height="26.31" as="geometry"/>
+        </mxCell>
+        <mxCell id="fPBrel0O2UR-gmmrgbWc-266" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.519;entryY=-0.041;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=12;exitX=0.407;exitY=0.988;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="fPBrel0O2UR-gmmrgbWc-250" source="fPBrel0O2UR-gmmrgbWc-260" target="fPBrel0O2UR-gmmrgbWc-253">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="520" y="200" as="sourcePoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fPBrel0O2UR-gmmrgbWc-163" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;" edge="1" parent="fPBrel0O2UR-gmmrgbWc-1" source="fPBrel0O2UR-gmmrgbWc-154" target="fPBrel0O2UR-gmmrgbWc-263">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="480" y="1349" as="targetPoint"/>
           </mxGeometry>
         </mxCell>
       </root>
