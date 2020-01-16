@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-01-16T06:56:46.786Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.117 Safari/537.36" etag="OkBY8dlpKsdNe64n1uet" version="12.5.4" type="github" pages="4">
+<mxfile host="www.draw.io" modified="2020-01-16T06:56:56.391Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.117 Safari/537.36" etag="dWx3AYG42aQ6-k8WLs5v" version="12.5.4" type="github" pages="4">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="findMostCommonPositiveNumber">
     <mxGraphModel dx="2701" dy="1997" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1272,7 +1272,7 @@
         <mxCell id="fPBrel0O2UR-gmmrgbWc-0"/>
         <mxCell id="fPBrel0O2UR-gmmrgbWc-1" parent="fPBrel0O2UR-gmmrgbWc-0"/>
         <mxCell id="fPBrel0O2UR-gmmrgbWc-12" value="" style="group" vertex="1" connectable="0" parent="fPBrel0O2UR-gmmrgbWc-1">
-          <mxGeometry x="160" y="320" width="550" height="80" as="geometry"/>
+          <mxGeometry x="161" y="320" width="550" height="80" as="geometry"/>
         </mxCell>
         <mxCell id="fPBrel0O2UR-gmmrgbWc-9" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="fPBrel0O2UR-gmmrgbWc-12">
           <mxGeometry width="550" height="50" as="geometry"/>
@@ -1287,7 +1287,7 @@
           <mxGeometry x="450" y="-5" width="70" height="30" as="geometry"/>
         </mxCell>
         <mxCell id="fPBrel0O2UR-gmmrgbWc-14" value="$$σ = {distance-&amp;gt;\alpha_{distance} age-&amp;gt;\alpha_{age}}$$" style="text;html=1;fontSize=16;" vertex="1" parent="fPBrel0O2UR-gmmrgbWc-12">
-          <mxGeometry x="40" y="-10" width="339" height="40" as="geometry"/>
+          <mxGeometry x="59" y="-5" width="339" height="40" as="geometry"/>
         </mxCell>
         <mxCell id="fPBrel0O2UR-gmmrgbWc-16" value="" style="group" vertex="1" connectable="0" parent="fPBrel0O2UR-gmmrgbWc-1">
           <mxGeometry x="150" y="460" width="320" height="80" as="geometry"/>
