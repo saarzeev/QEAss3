@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-01-16T08:10:43.423Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.117 Safari/537.36" etag="qWXh3nDdemHJKvd5_ZFt" version="12.5.4" type="github" pages="4">
+<mxfile host="www.draw.io" modified="2020-01-16T08:11:19.400Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.117 Safari/537.36" etag="SVfdeGOoLhBVq-bLJzh1" version="12.5.4" type="github" pages="4">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="findMostCommonPositiveNumber">
     <mxGraphModel dx="2701" dy="1997" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1546,7 +1546,7 @@
         <mxCell id="fPBrel0O2UR-gmmrgbWc-139" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="fPBrel0O2UR-gmmrgbWc-135">
           <mxGeometry x="47.83000000000001" y="88" width="632.17" height="42" as="geometry"/>
         </mxCell>
-        <mxCell id="fPBrel0O2UR-gmmrgbWc-141" value="&lt;font style=&quot;font-size: 12px ; line-height: 70%&quot;&gt;$$π=\alpha_{age} &amp;gt; 1 AND \alpha_{age} &amp;lt;= 120$$ &lt;br style=&quot;font-size: 12px&quot;&gt;$$ AND \alpha_{distance} &amp;gt;= 0 $$&lt;/font&gt;" style="text;html=1;fontSize=12;verticalAlign=middle;horizontal=1;spacing=0;" vertex="1" parent="fPBrel0O2UR-gmmrgbWc-135">
+        <mxCell id="fPBrel0O2UR-gmmrgbWc-141" value="&lt;font style=&quot;font-size: 12px ; line-height: 70%&quot;&gt;$$π=\alpha_{age} &amp;gt; 1 AND \alpha_{age} &amp;lt;= 120$$ &lt;br style=&quot;font-size: 12px&quot;&gt;$$ AND \alpha_{distance} &amp;gt; 500 $$&lt;/font&gt;" style="text;html=1;fontSize=12;verticalAlign=middle;horizontal=1;spacing=0;" vertex="1" parent="fPBrel0O2UR-gmmrgbWc-135">
           <mxGeometry x="475.33000000000004" y="10" width="204.67" height="60" as="geometry"/>
         </mxCell>
         <mxCell id="fPBrel0O2UR-gmmrgbWc-142" value="$$σ = {distance-&amp;gt;\alpha_{distance} &lt;br&gt;age-&amp;gt;\alpha_{age} cost-&amp;gt;1000}$$" style="text;html=1;fontSize=14;" vertex="1" parent="fPBrel0O2UR-gmmrgbWc-135">
@@ -1555,9 +1555,18 @@
         <mxCell id="fPBrel0O2UR-gmmrgbWc-143" value="5. if(distance &amp;gt; 500)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="fPBrel0O2UR-gmmrgbWc-135">
           <mxGeometry x="60.00347826086954" y="99" width="204.45652173913044" height="20" as="geometry"/>
         </mxCell>
-        <mxCell id="fPBrel0O2UR-gmmrgbWc-132" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="fPBrel0O2UR-gmmrgbWc-1" source="fPBrel0O2UR-gmmrgbWc-110" target="fPBrel0O2UR-gmmrgbWc-142">
+        <mxCell id="fPBrel0O2UR-gmmrgbWc-132" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="fPBrel0O2UR-gmmrgbWc-1" source="fPBrel0O2UR-gmmrgbWc-144" target="fPBrel0O2UR-gmmrgbWc-142">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-359.99999999999955" y="1024" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fPBrel0O2UR-gmmrgbWc-144" value="$$\alpha_{distance} &amp;gt; 500$$" style="text;html=1;fontSize=17;" vertex="1" parent="fPBrel0O2UR-gmmrgbWc-1">
+          <mxGeometry x="-530" y="990" width="163.91" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="fPBrel0O2UR-gmmrgbWc-145" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="fPBrel0O2UR-gmmrgbWc-1" source="fPBrel0O2UR-gmmrgbWc-110" target="fPBrel0O2UR-gmmrgbWc-144">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-280.00000000000045" y="1023.666666666667" as="sourcePoint"/>
+            <mxPoint x="-566.001956521739" y="1130" as="targetPoint"/>
           </mxGeometry>
         </mxCell>
       </root>
