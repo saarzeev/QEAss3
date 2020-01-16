@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-01-16T08:31:47.405Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.117 Safari/537.36" etag="oRbusNSkJ6ELlPa72sHa" version="12.5.4" type="github" pages="4">
+<mxfile host="www.draw.io" modified="2020-01-16T08:37:36.760Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.117 Safari/537.36" etag="8C9KmLoAgzUy5uRWVn9u" version="12.5.4" type="github" pages="4">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="findMostCommonPositiveNumber">
     <mxGraphModel dx="2701" dy="1997" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1679,7 +1679,10 @@
           <mxGeometry width="600" height="90" as="geometry"/>
         </mxCell>
         <mxCell id="fPBrel0O2UR-gmmrgbWc-203" value="$$\alpha_{age}*\frac{1}{\exp{(\alpha_{distance})}} &amp;gt;1 \wedge alpha_{age} &amp;lt; 1$$" style="text;html=1;fontSize=15;" vertex="1" parent="fPBrel0O2UR-gmmrgbWc-204">
-          <mxGeometry x="9.995773342836856" y="10" width="558.1539558089808" height="57.411764705882355" as="geometry"/>
+          <mxGeometry x="10" y="10" width="320" height="57.41" as="geometry"/>
+        </mxCell>
+        <mxCell id="fPBrel0O2UR-gmmrgbWc-205" value="$$ if (\alpha_{distance}&amp;lt;0) $$&amp;nbsp; ERROR" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="fPBrel0O2UR-gmmrgbWc-204">
+          <mxGeometry x="368" y="15" width="212" height="60" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
