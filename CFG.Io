@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-01-17T15:24:26.886Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.117 Safari/537.36" etag="cJIZNKN9_cvAxmyoKTEn" version="12.5.5" type="github" pages="4">
+<mxfile host="www.draw.io" modified="2020-01-17T15:25:10.905Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.117 Safari/537.36" etag="DiO9rNCEcaOpi3dibv8n" version="12.5.5" type="github" pages="4">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="findMostCommonPositiveNumber">
     <mxGraphModel dx="2249" dy="1963" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2753,7 +2753,7 @@
         <mxCell id="fPBrel0O2UR-gmmrgbWc-282" value="" style="group" parent="fPBrel0O2UR-gmmrgbWc-279" vertex="1" connectable="0">
           <mxGeometry width="757.1426086956519" height="200" as="geometry"/>
         </mxCell>
-        <mxCell id="fPBrel0O2UR-gmmrgbWc-283" value="O" style="rounded=0;whiteSpace=wrap;html=1;" parent="fPBrel0O2UR-gmmrgbWc-282" vertex="1">
+        <mxCell id="fPBrel0O2UR-gmmrgbWc-283" value="N" style="rounded=0;whiteSpace=wrap;html=1;" parent="fPBrel0O2UR-gmmrgbWc-282" vertex="1">
           <mxGeometry y="11.764705882352942" width="67.9633867276888" height="188.23529411764707" as="geometry"/>
         </mxCell>
         <mxCell id="fPBrel0O2UR-gmmrgbWc-284" value="$$σ = {distance-&amp;gt;\alpha_{distance} age-&amp;gt;\alpha_{age} cost-&amp;gt;Min(\alpha_{age}*\frac{\alpha_{distance}}{100},1000)}$$" style="text;html=1;fontSize=15;" parent="fPBrel0O2UR-gmmrgbWc-282" vertex="1">
