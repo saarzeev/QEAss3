@@ -36,13 +36,13 @@ public class PrintArrBottomUp {
     public void printingArrayShouldPrintActualMemebrs(){
         Program program = new Program();
         program.printArr(new int[]{1,2});
-        Assert.assertEquals("1 2 \n", outContent.toString());
+        Assert.assertEquals("1 2 \r\n", outContent.toString());
     }
 
     @Test
     public void printingAnEmptyArrayShouldPrintNewLine(){
         Program program = new Program();
         program.printArr(new int[]{});
-        Assert.assertEquals("\n", outContent.toString());
+        Assert.assertEquals("\r\n", outContent.toString());
     }
 }
